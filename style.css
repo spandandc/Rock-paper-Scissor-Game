@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+    background-color: #83B4FF;
+}
+
+/* Fonts Styling */
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size:4rem;
+}
+
+p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Heading{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #0F67B1;
+    color: aliceblue;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    font-family: Tahoma, sans-serif;
+}
+
+
+/* Options container */
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 250px;
+    width: 400px;
+    
+    
+}
+
+/* mainContainer box */
+.container{
+    height: auto;
+    width: auto;
+    margin: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.borderrad{
+    border-radius: 50%;
+}
+
+
+
+
+/* Scoreboardsettings */
+.scoreboard{
+    display: Flex;
+    gap: 7rem;
+    margin-top: 0.4rem;
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
+    
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size:5rem;
+}
+
+
+#rock{
+    background-image: url("/images/rock.jpg");
+    height: 60%;
+    width: 75%;
+    border-radius: 50%;
+    background-size:cover;
+    object-fit: cover;
+       
+}
+
+
+#scissor{
+    background-image: url("/images/scissor.jpg");
+    height: 60%;
+    width: 75%;
+    border-radius: 50%;
+    display: flex;
+    background-size:cover;
+    object-fit: cover;
+    
+}
+
+#paper{
+    background-image: url("/images/rock-paper-scissors-hand-signs-260nw-2310341353.jpg");
+    height: 60%;
+    width: 75%;
+    border-radius: 50%;
+    background-size:cover;
+    
+    
+    
+}
+
+/* Hover option in CSS */
+
+#rock:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#scissor:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+#paper:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+/* To display winner box */
+.winnermsg{
+    height: 100px;
+    width: 300px;
+    margin: 5% auto;
+    border-radius: 1rem; 
+    background-color: #D1D8C5;
+    color: #615EFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.ending{
+    height: 80px;
+    width: auto;
+    background-color:#3572EF;
+}
+
+.ending{
+    text-align: center;
+    
+
+}
+#credits{
+    font-size: 1px;
+
+}
+
